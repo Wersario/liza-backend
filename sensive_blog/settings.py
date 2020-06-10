@@ -95,13 +95,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    "/Users/Юрис/Desktop/liza-backend/templates/img/banner/",
-    "/Users/Юрис/Desktop/liza-backend/templates/img/blog/",
-    "/Users/Юрис/Desktop/liza-backend/templates/img/",
-    "/Users/Юрис/Desktop/liza-backend/templates/img/blog/blog-slider/",
-    "/Users/Юрис/Desktop/liza-backend/templates/",
-]
+STATICFILES_DIRS =  (os.path.join(BASE_DIR, "static"), )
+
 
 MEDIA_ROOT = os.getenv("MEDIA_ROOT", os.path.join(BASE_DIR, 'media'))
 
