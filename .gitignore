@@ -4,3 +4,4 @@ __pycache__/
 venv/
 media/
 *.sqlite3
+*.gitkeep
