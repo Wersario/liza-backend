@@ -1,6 +1,5 @@
 
-blog/__pychace__/
-sensive_blog/__pycache__/
+__pycache__/
 .idea/
 venv/
 media/
